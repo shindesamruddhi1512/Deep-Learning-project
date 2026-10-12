@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Model checkpoints and generated artifacts
+artifacts/*.pt
+artifacts/*.pth
+artifacts/*.ckpt
+
+# Downloaded datasets
+data/
+datasets/
+*.parquet
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
